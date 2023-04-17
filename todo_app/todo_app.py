@@ -30,7 +30,7 @@ def add_task_to_db(uid, date, new_task):
 
 class State(pc.State):
     task: str
-    task_list: list[list]
+    task_list: list
     on_delete: str = "translate(-20px, 0px)"
     off_delete: str = "translate(0px, 0px)"
     on_opacity_delete: str = "100%"

@@ -1,0 +1,5 @@
+# pynecone.db
+.web
+.vscode
+py_env
+__pycache__
